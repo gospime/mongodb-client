@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/gospime/mongodb-client/compare/v1.2.0...v1.2.1) (2019-11-18)
+
+
+### Bug Fixes
+
+* corrected mongo client ([3d3b167](https://github.com/gospime/mongodb-client/commit/3d3b167d9edc2d42c1d26371437fcc31727eacf1))
+
 ## 1.2.0 (2019-11-18)
 
 
