@@ -25,7 +25,7 @@ module.exports = async parameters => {
   let { settings, options } = parameters || {};
   const uri = getUri({ ...DEFAULT.settings, ...settings });
 
-  const client = await MongoClient.connect(uri, { ...DEFAULT.options, ...options });
+  const client = await Client.connect(uri, { ...DEFAULT.options, ...options });
 
   Logger.setLevel(isProduction ? 'error' : 'debug'); /* warn, error */
   Logger.filter('class', [/* 'Server', */ 'Ping', 'Cursor']);
