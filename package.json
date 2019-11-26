@@ -1,6 +1,6 @@
 {
   "name": "@gospime/mongodb-client",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Create a client connection to MongoDB",
   "keywords": [
     "gospime",
