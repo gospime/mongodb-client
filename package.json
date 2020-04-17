@@ -34,7 +34,7 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "mongodb": "^3.5.5"
+    "mongodb": "^3.5.6"
   },
   "optionalDependencies": {
     "minimist": "^1.2.5"
